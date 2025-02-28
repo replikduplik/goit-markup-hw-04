@@ -232,6 +232,22 @@ p {
 .features-item {
 	width: calc((100% - 72px) / 4);
 }
+
+.features-img {
+	height: 112px;
+	background-color: #f4f4fd;
+	border: 1px solid #8e8f99;
+	border-radius: 4px;
+	margin-bottom: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.features-img svg {
+	width: 64px;
+	height: 64px;
+}
+
 .features-title {
 	margin-bottom: 8px;
 }
@@ -266,6 +282,17 @@ p {
 }
 .team-member-box {
 	padding: 32px 0;
+}
+.our-team-social {
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8px;
+}
+.our-team-social svg{
+    width: 16px;
+    height: 16px;
 }
 .team-member-name {
 	text-align: center;
