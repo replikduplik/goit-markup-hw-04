@@ -320,9 +320,9 @@ p {
 	align-items: center;
 	margin-top: 8px;
 }
-.our-team-social svg{
-    width: 40px;
-    height: 40px;
+.social-svg{
+    width: 16px;
+    height: 16px;
 }
 .team-social-link{
 	width: 100%;
