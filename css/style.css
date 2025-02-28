@@ -78,6 +78,7 @@ p {
 .header-container {
 	display: flex;
 	padding: 0 15px;
+	justify-content: space-between;
 }
 
 .header-nav {
@@ -113,11 +114,14 @@ p {
 
 .header-info {
 	font-style: normal;
+	
+	
 }
 
 .contact-list {
 	display: flex;
 	gap: 40px;
+	
 }
 .contact-info {
 	color: #434455;
